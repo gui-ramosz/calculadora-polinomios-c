@@ -67,3 +67,14 @@ double calculaPolinomio(int polinomio[], int grau, double x) { //Double pois o v
     }
     return resultado;
 }
+
+double somaPolinomio(int polinomio1[], int grau1, int polinomio2[], int grau2, int vres[]){
+    int soma;
+    for(int i = 0; i > grau1; i++){
+        for(int j = 0; j > grau2; j++){
+            soma = polinomio1[i] + polinomio2[j];
+            vres[] = soma;
+        }
+    }
+return vres;
+}
