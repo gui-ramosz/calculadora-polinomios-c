@@ -25,8 +25,36 @@ int main(){
     }
 
     else if(escolha == 2){
+        int grau1;
+        int grau2;
+               
+        printf("Digite o grau do primeiro polinômio (expoente de maior valor): ");
+        scanf("%d", &grau1);
+        int polinomio1[grau1 + 1];
+
+        lePolinomio(polinomio1, grau1);
+        imprimePolinomio(polinomio1, grau1);
+
+        printf("Digite o grau do segundo polinômio (expoente de maior valor): ");
+        scanf("%d", &grau2);
+        int polinomio2[grau2 + 1];
+
+        lePolinomio(polinomio2, grau2);
+        imprimePolinomio(polinomio2, grau2);
         
+        if(grau1 > grau2){
+            int grauMaior = grau1;
+        }
+        else{
+            int grauMaior = grau2;
+        }
+
+        int vres[grauMaior];
+
+        somaPolinomio(polinomio1, grau1, polinomio2, grau2, vres);
+        printf("RESULTADO: ");
+        imprimePolinomio(vres, grauMaior);
     }
 
-
+return 0;
 }
