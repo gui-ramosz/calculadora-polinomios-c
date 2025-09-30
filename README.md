@@ -2,7 +2,7 @@
 
 Este projeto implementa uma calculadora em C, capaz de realizar operações matemáticas básicas com polinômios. O objetivo foi aplicar os fundamentos da linguagem, incluindo o uso de vetores, funções e modularização de código.
 
-## ⚙️ Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 O programa apresenta um menu com as seguintes opções:
 
@@ -17,7 +17,7 @@ O programa apresenta um menu com as seguintes opções:
     * O programa exibe ambos os polinômios na tela.
     * A função realiza a soma e exibe o polinômio resultante.
   
- ## 🚀 Como Compilar e Executar
+ ## Como Compilar e Executar
 
 1.  **Clone o repositório:**
     ```bash
